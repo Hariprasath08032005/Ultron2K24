@@ -31,6 +31,10 @@
   font-family: 'anurathi';
   src: url('fonts/Anurati.otf') format('opentype');
 }
+@font-face {
+  font-family: 'nasa';
+  src: url('fonts/nasa.otf') format('opentype');
+}
 /*========== Responsive typography ==========*/
 @media screen and (min-width: 1024px) {
   :root {
@@ -355,7 +359,7 @@ a {
 
 margin-top: 20%;
 position: absolute;
-top: 24%;
+top: 20%;
 color: #fff;
 text-transform: uppercase;
 align-items: center;
@@ -370,15 +374,13 @@ color: #fff;
 font-size: 4rem;
 }
 .home>h4{
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-family: nasa,sans-serif;
   color: #fff;
   font-size: 1rem;
 
 }
 .home>h5{
-  font-family: "Ubuntu", sans-serif;
+  font-family: nasa,sans-serif;
   font-weight: 700;
   font-style: normal;
   
@@ -387,7 +389,7 @@ font-size: 4rem;
   font-size: 1.5rem;
   
 }
-.home img{
+.float{
  z-index: 1000;
  animation: bounce 1s infinite alternate;
 }
