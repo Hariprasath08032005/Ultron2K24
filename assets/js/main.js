@@ -23,10 +23,10 @@ showMenu('nav-toggle','nav-menu')
 particlesJS("particles-js", {
     "particles": {
         "number": {
-            "value": 150,
+            "value": 200,
             "density": {
                 "enable": true,
-                "value_area": 800
+                "value_area": 1000
             }
         },
         "color": {
@@ -39,11 +39,11 @@ particlesJS("particles-js", {
                 "color": "#000000"
             },
             "polygon": {
-                "nb_sides": 5
+                "nb_sides": 10
             }
         },
         "opacity": {
-            "value": 0.5,
+            "value": 0.2,
             "random": false,
             "anim": {
                 "enable": false,
@@ -56,7 +56,7 @@ particlesJS("particles-js", {
             "value": 3,
             "random": true,
             "anim": {
-                "enable": false,
+                "enable": true,
                 "speed": 20,
                 "size_min": 0.1,
                 "sync": false
@@ -64,7 +64,7 @@ particlesJS("particles-js", {
         },
         "line_linked": {
             "enable": true,
-            "distance": 150,
+            "distance": 200,
             "color": "#ffffff",
             "opacity": 0.4,
             "width": 1
@@ -92,7 +92,7 @@ particlesJS("particles-js", {
                 "mode": "repulse"
             },
             "onclick": {
-                "enable": true,
+                "enable": false,
                 "mode": "push"
             },
             "resize": true
