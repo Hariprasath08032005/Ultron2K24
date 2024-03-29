@@ -432,3 +432,6 @@ h5{
     background-position: 400%;
   }
 }
+#particles-js{
+  width: 100VW;
+}
