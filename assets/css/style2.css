@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'elite';
+    src: url('fonts/elite.otf') format('opentype');
+  }
+  
+@font-face {
+    font-family: 'gtimes';
+    src: url('fonts/gtimes.otf') format('opentype');
+  }
+
+#events{
+height: 100vh;
+width: 100vw;
+background-color: black;
+color: #fff;
+margin-top: 40%;
+font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+#events>h1{
+    font-family: gtimes;
+}
+#events>h3{
+ font-family: elite;   
+}
+
+  .swiper {
+    width: 40vh;
+    height: 40vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(223, 220, 220, 0.178); /* Glass background color with transparency */
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Blur effect for the glass */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke:#fff;
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+
+  .btn {
+    /* reset */
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    /* styles */
+    position: relative;
+    background: linear-gradient(-45deg, #ffd6d6,#faffb0,#c0ffb6,#d0ddff,#e1bfff);
+     background-size: 400% 40%;
+    padding: 1.5rem 1rem;
+    color: black;
+    text-transform:uppercase;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: .3s;
+    font-family: gtimes;
+ }
+ .btn:hover{
+    /* reset */
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    /* styles */
+    position: relative;
+    background: linear-gradient(-45deg, #ffd6d6,#faffb0,#c0ffb6,#d0ddff,#e1bfff);
+     background-size: 40% 40%;
+     animation: gradientBG 4.5s ease infinite;
+    padding: 1.5rem 1rem;
+    color: black;
+    text-transform:uppercase;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: .3s;
+    font-family: gtimes
+}
+
+ @keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

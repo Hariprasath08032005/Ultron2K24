@@ -156,3 +156,32 @@ setInterval(updateCountdown, 1000);
 // Initial call to start the countdown
 updateCountdown();
 
+const progressCircle = document.querySelector(".autoplay-progress svg");
+const progressContent = document.querySelector(".autoplay-progress span");
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+  on: {
+    autoplayTimeLeft(s, time, progress) {
+      progressCircle.style.setProperty("--progress", 1 - progress);
+      progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+    }
+  }
+});
+
+
+function form() {
+    window.open('https://docs.google.com/forms/d/13aQVW6l80e-SgqetNCQ0zJnIjy8ZZ1uivyMyQRec1jg/edit?usp=drivesdk')
+}

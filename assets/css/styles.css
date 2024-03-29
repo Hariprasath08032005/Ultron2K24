@@ -35,10 +35,6 @@
   font-family: 'nasa';
   src: url('fonts/nasa.otf') format('opentype');
 }
-@font-face {
-  font-family: 'elite';
-  src: url('fonts/elite.otf') format('opentype');
-}
 /*========== Responsive typography ==========*/
 @media screen and (min-width: 1024px) {
   :root {
@@ -92,6 +88,7 @@ a {
 .nav {
   height: var(--header-height);
   backdrop-filter: blur(12px);
+  
 }
 
 .nav__logo, 
