@@ -127,3 +127,6 @@ font-family: "Poppins", sans-serif;
 		background-position: 0% 50%;
 	}
 }
+.swiper-slide>span{
+  font-size: 130px;
+}
