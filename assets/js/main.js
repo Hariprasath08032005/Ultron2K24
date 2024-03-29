@@ -23,7 +23,7 @@ showMenu('nav-toggle','nav-menu')
 particlesJS("particles-js", {
     "particles": {
         "number": {
-            "value": 200,
+            "value":200,
             "density": {
                 "enable": true,
                 "value_area": 1000
@@ -43,7 +43,7 @@ particlesJS("particles-js", {
             }
         },
         "opacity": {
-            "value": 0.2,
+            "value": 0.5,
             "random": false,
             "anim": {
                 "enable": false,
@@ -64,7 +64,7 @@ particlesJS("particles-js", {
         },
         "line_linked": {
             "enable": true,
-            "distance": 200,
+            "distance": 150,
             "color": "#ffffff",
             "opacity": 0.4,
             "width": 1
