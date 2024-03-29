@@ -128,5 +128,14 @@ font-family: "Poppins", sans-serif;
 	}
 }
 .swiper-slide>span{
-  font-size: 130px;
+  font-size: 100px;
+}
+.swiper-slide>h1{
+  
+  font-family: gtimes;
+}
+.swiper-slide>h6{
+  margin: 5%;
+  font-family: poppins,sans-serif;
+  text-transform: none;
 }
