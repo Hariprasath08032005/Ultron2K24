@@ -31,6 +31,7 @@
   font-family: 'anurathi';
   src: url('fonts/Anurati.otf') format('opentype');
 }
+
 @font-face {
   font-family: 'nasa';
   src: url('fonts/nasa.otf') format('opentype');
@@ -41,7 +42,9 @@
     --normal-font-size: 1rem;
   }
 }
-
+html{
+  scroll-behavior: smooth;
+}
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;

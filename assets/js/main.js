@@ -181,7 +181,3 @@ var swiper = new Swiper(".mySwiper", {
   }
 });
 
-
-function form() {
-    window.open('https://docs.google.com/forms/d/13aQVW6l80e-SgqetNCQ0zJnIjy8ZZ1uivyMyQRec1jg/edit?usp=drivesdk')
-}

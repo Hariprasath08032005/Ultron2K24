@@ -85,11 +85,9 @@ font-family: "Poppins", sans-serif;
   }
 
   .btn {
-    /* reset */
     -webkit-appearance: none;
     border: 0;
     outline: 0;
-    /* styles */
     position: relative;
     background: linear-gradient(-45deg, #ffd6d6,#faffb0,#c0ffb6,#d0ddff,#e1bfff);
      background-size: 400% 40%;
@@ -102,11 +100,9 @@ font-family: "Poppins", sans-serif;
     font-family: gtimes;
  }
  .btn:hover{
-    /* reset */
     -webkit-appearance: none;
     border: 0;
     outline: 0;
-    /* styles */
     position: relative;
     background: linear-gradient(-45deg, #ffd6d6,#faffb0,#c0ffb6,#d0ddff,#e1bfff);
      background-size: 40% 40%;
