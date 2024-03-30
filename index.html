@@ -11,6 +11,7 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
       <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="assets/css/load.css">
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
       
       <!--=============== CSS ===============-->
@@ -24,6 +25,8 @@
    </head>
    <body>
       <!--=============== HEADER ===============-->
+     
+      <div class="webmain">
       <div id="particles-js"></div>
 
       <header class="header">
@@ -45,7 +48,7 @@
                <ul class="nav__list">
                   <li><a href="#home" class="nav__link">Home</a></li>
 
-                  <li><a href="#" class="nav__link">Rules & Guidelines</a></li>
+                  <li><a href="#rules" class="nav__link">Rules & Guidelines</a></li>
                   <li><a href="#" class="nav__link">Brochure</a></li>
                   <li><a href="#regist" class="nav__link">Register</a></li>
 
@@ -198,18 +201,35 @@
    <br><br><br>
 <h4>last date for registeration <span style="color: red;">DD/04/2024</h4>
 </section>
- 
+ <section id="rules">
+   <div class="dashboard">
+      <h1>Rules & Guidelines</h1>
+      <br><br>
+      <button class="btnn" onclick="rules();" >click to view</button>
+   </div>
+   
+ </section>
             </section>
             <br><br>
           </div>
-           
-           
+      <!--=============== MAIN web ===============-->     
+         </div>    
       <!--=============== MAIN JS ===============-->
       <!-- Swiper JS -->
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       <script>
-        function openForm() {
-        window.open('https://docs.google.com/forms/d/13aQVW6l80e-SgqetNCQ0zJnIjy8ZZ1uivyMyQRec1jg/edit?usp=drivesdk');
+       
+        function openForms() {
+         setTimeout(()=>{
+            window.open('https://docs.google.com/forms/d/13aQVW6l80e-SgqetNCQ0zJnIjy8ZZ1uivyMyQRec1jg/edit?usp=drivesdk');
+         },1000)
+        
+    } 
+    function rules() {
+         setTimeout(()=>{
+            window.open('');
+         },1000)
+        
     }  
     </script>
       <script src="assets/js/swipe.js"></script>
