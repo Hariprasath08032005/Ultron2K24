@@ -9,6 +9,11 @@
     font-family: 'gtimes';
     src: url('fonts/gtimes.otf') format('opentype');
   }
+   
+@font-face {
+  font-family: 'nothing';
+  src: url('fonts/nothing.otf') format('opentype');
+}
 
 #events{
 height: 100vh;
@@ -182,8 +187,19 @@ font-family: "Poppins", sans-serif;
   transition: .5s;
 }
 #coord{
-  margin-top: 20%;
+  margin-top: 30%;
   height: 50vh;
-  width: 100vw;
-  background-color: #d0ddff;
+  width:100vw;
+  background-color: black;
+  color: black;
+  
+}
+#coord>h2{
+  font-family: nothing;
+  color: white;
+  font-weight: 10;
+}
+#regist>h4{
+  font-family: nasa;
+
 }
