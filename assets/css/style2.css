@@ -154,7 +154,7 @@ font-family: "Poppins", sans-serif;
 }
 .dashboard{
  border-radius: 4px;
- margin-top: 20%;
+ margin-top: 10%;
   height: 20vh;
   width: 75vw;
   background-color: white;
@@ -195,11 +195,20 @@ font-family: "Poppins", sans-serif;
   
 }
 #coord>h2{
-  font-family: nothing;
+  font-family: nasa;
   color: white;
-  font-weight: 10;
+  font-weight: 1px;
+  font-size: 15px;
+}
+#coord>h5{
+  font-size: 20px;
+  font-family: nothing;
+  margin: 2%;
+  color: #fff;
+  font-weight: 1;
+
 }
 #regist>h4{
-  font-family: nasa;
+  font-family: nothing;
 
 }
