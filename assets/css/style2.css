@@ -140,7 +140,7 @@ font-family: "Poppins", sans-serif;
   text-transform: none;
 }
 #rules{
-  height: 100vh;
+  height: 20vh;
   width: 100vw;
   background-color: black;
   display: flex;
@@ -150,7 +150,7 @@ font-family: "Poppins", sans-serif;
 .dashboard{
  border-radius: 4px;
  margin-top: 20%;
-  height: 20%;
+  height: 20vh;
   width: 75vw;
   background-color: white;
   color: black;
@@ -180,4 +180,10 @@ font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-family: gtimes;
   transition: .5s;
+}
+#coord{
+  margin-top: 20%;
+  height: 50vh;
+  width: 100vw;
+  background-color: #d0ddff;
 }
